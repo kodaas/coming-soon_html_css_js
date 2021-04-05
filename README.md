@@ -16,6 +16,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
+- [Acknowledgement](#acknowledgement)
 
 ## Overview
 
@@ -86,3 +87,9 @@ I would like to improve more on my javascript, and then move to backend using no
 - Website - [Ajala Fiyinfoluwa John](https://github.com/kodaas)
 - Frontend Mentor - [@Ajala-John](https://www.frontendmentor.io/profile/Ajala-John)
 <!-- - Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
+
+## Acknowledgement
+
+I give acknowledgement to [Freecodecamp](https://freecodecamp.org): This is where i learnt all my front end skills. Their curriculum is easy to follow and they have tasking project and exercises at the end of every lecture. Thank you for helping me.
+
+I also want to give acknowledgement to a friend [Victor Usoro](https://bitbucket.org/VictorUsoro/) who assisted me while learning programing. Thank you so mush.
