@@ -36,7 +36,6 @@ section {
 
 section .content {
   padding: 45px 20px 0px;
-  max-width: 500px;
 }
 
 section .content h2 {
@@ -56,10 +55,11 @@ section .content h2 span {
 section .content p {
   margin: 15px 0px;
   color: var(--light-red);
+  line-height: 25px;
 }
 
 section .content .news-letter {
-  width: 280px;
+  width: 340px;
   height: 45px;
   margin: 20px auto;
   border: 2px solid var(--light-pink);
@@ -67,20 +67,59 @@ section .content .news-letter {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 section .content .news-letter input {
+  width: 73%;
+  height: 100%;
+  margin-left: 23px;
+  outline: none;
+  border: none;
+  background-image: url("images/icon-error.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-color: transparent;
+  color: var(--gray-red);
 }
 
+section .content .news-letter input::placeholder {
+  color: var(--light-pink);
+}
+
+/* section .content .news-letter input:focus + .news-letter {
+  border: 2px solid var(--dark-red);
+} */
+
 section .content .news-letter span {
-  background-color: black;
+  width: 60px;
+  padding: 10px 0px;
+  border-radius: 50px;
+  background-image: url("images/icon-arrow.svg");
+  background: linear-gradient(135deg, var(--light-pink), var(--dark-pink));
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 3px 8px 6px hsla(0, 80%, 86%, 0.404);
+}
+
+section .content .news-letter p {
+  position: absolute;
+  left: 25px;
+  bottom: -43px;
+  font-size: 12px;
+  color: var(--dark-red);
+  font-weight: 600;
 }
 
 .attribution {
-  display: none;
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
+  margin-top: 30px;
+  padding: 15px 5px;
+  color: var(--gray-red);
 }
 .attribution a {
   color: var(--dark-pink);
+  text-decoration: none;
 }
