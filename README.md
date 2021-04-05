@@ -33,19 +33,19 @@ Users should be able to:
 
 #### Desktop 1
 
-![Desktop 1](solution/desktop_1.png)
+![Desktop 1](solution/desktop_1.jpg)
 
 #### Desktop 2
 
-![Desktop 2](solution/desktop_2.png)
+![Desktop 2](solution/desktop_2.jpg)
 
 #### Mobile
 
-![Mobile](solution/mobile.png)
+![Mobile](solution/mobile.jpg)
 
 #### Tablet
 
-![Tablet](solution/tablet.png)
+![Tablet](solution/tablet.jpg)
 
 <!-- Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. -->
 
@@ -84,5 +84,5 @@ I would like to improve more on my javascript, and then move to backend using no
 ## Author
 
 - Website - [Ajala Fiyinfoluwa John](https://github.com/kodaas)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Ajala-John)
+- Frontend Mentor - [@Ajala-John](https://www.frontendmentor.io/profile/Ajala-John)
 <!-- - Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
