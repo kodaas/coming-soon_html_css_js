@@ -10,6 +10,8 @@ function submit() {
     if (email === '' || !containAt){
         border.style.border = '2px solid var(--dark-red)';
         errMsg.style.display = 'block';
+        errMsg.style.color = 'var(--dark-red)';
+        errMsg.innerHTML = 'Please provide a valid email';
         emailDOM.style.backgroundImage = 'url("images/icon-error.svg")';
     } else {
         border.style.border = '2px solid var(--light-pink)';
