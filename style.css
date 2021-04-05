@@ -96,11 +96,14 @@ section .content .news-letter span {
   width: 60px;
   padding: 10px 0px;
   border-radius: 50px;
-  background-image: url("images/icon-arrow.svg");
   background: linear-gradient(135deg, var(--light-pink), var(--dark-pink));
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: 0px 3px 8px 6px hsla(0, 80%, 86%, 0.404);
+}
+
+section .content .news-letter span:hover {
+  transform: scale(1.1);
 }
 
 section .content .news-letter p {
