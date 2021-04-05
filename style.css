@@ -176,12 +176,13 @@ section .content .news-letter p {
     text-align: left;
     max-width: 100%;
     margin: 0px;
+    margin-left: 55px;
   }
 
   section nav {
     display: block;
     position: fixed;
-    top: 0px;
+    top: 45px;
   }
 
   .hero-desktop {
