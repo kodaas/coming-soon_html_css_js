@@ -5,10 +5,82 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+:root {
+  --dark-red: hsl(0, 93%, 68%);
+  --light-red: hsl(0, 36%, 70%);
+  --light-pink: hsl(0, 80%, 86%);
+  --dark-pink: hsl(0, 74%, 74%);
+  --pink-white: hsl(0, 100%, 98%);
+  --gray-red: hsl(0, 6%, 24%);
+}
+
+body {
+  background-color: var(--pink-white);
+  font-size: 16px;
+}
+
+nav {
+  width: 100vw;
+  padding: 20px;
+}
+
+nav img {
+  width: 100px;
+  height: 20px;
+}
+
+section {
+  text-align: center;
+  display: grid;
+}
+
+section .content {
+  padding: 45px 20px 0px;
+  max-width: 500px;
+}
+
+section .content h2 {
+  font-size: 35px;
+  color: var(--gray-red);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 10px;
+  margin: 0px 0px 10px;
+}
+
+section .content h2 span {
+  font-weight: 300;
+  color: var(--light-red);
+}
+
+section .content p {
+  margin: 15px 0px;
+  color: var(--light-red);
+}
+
+section .content .news-letter {
+  width: 280px;
+  height: 45px;
+  margin: 20px auto;
+  border: 2px solid var(--light-pink);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .content .news-letter input {
+}
+
+section .content .news-letter span {
+  background-color: black;
+}
+
 .attribution {
+  display: none;
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--dark-pink);
 }
