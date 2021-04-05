@@ -16,7 +16,7 @@
 
 body {
   background-color: var(--pink-white);
-  font-size: 18px;
+  font-size: 16px;
 }
 
 nav {
@@ -98,10 +98,6 @@ section .content .news-letter input::placeholder {
   color: var(--light-pink);
 }
 
-/* section .content .news-letter input:focus + .news-letter {
-  border: 2px solid var(--dark-red);
-} */
-
 section .content .news-letter span {
   width: 60px;
   padding: 10px 0px;
@@ -109,19 +105,24 @@ section .content .news-letter span {
   background: linear-gradient(135deg, var(--light-pink), var(--dark-pink));
   background-position: center;
   background-repeat: no-repeat;
-  transition: transform 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
+  /* transition: transform 0.2s cubic-bezier(0.47, 0, 0.745, 0.715); */
   box-shadow: 0px 3px 8px 6px hsla(0, 80%, 86%, 0.404);
   cursor: pointer;
+  user-select: none;
 }
 
 section .content .news-letter span:hover {
   transform: scale(1.1);
 }
 
+section .content .news-letter span:active {
+  transform: scale(1);
+}
+
 section .content .news-letter p {
   position: absolute;
   left: 25px;
-  bottom: -43px;
+  bottom: -53px;
   font-size: 12px;
   color: var(--dark-red);
   font-weight: 600;
@@ -141,6 +142,11 @@ section .content .news-letter p {
 }
 
 @media (min-width: 1350px) {
+  body {
+    background-color: white;
+    font-size: 18px;
+  }
+
   nav,
   .hero-mobile {
     display: none;

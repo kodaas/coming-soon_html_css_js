@@ -42,9 +42,9 @@
       Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
       <div class="news-letter">
-        <input type="text" placeholder="Email Address">
-        <span><img src="images/icon-arrow.svg" alt=">"></span>
-        <p>Please provide a valid email</p>
+        <input id="email" type="email" placeholder="Email Address" required>
+        <span onclick="submit()"><img src="images/icon-arrow.svg" alt=">"></span>
+        <p id="err-msg">Please provide a valid email</p>
       </div>    
     
     </div>
@@ -62,6 +62,7 @@
     </p>
   </footer>
   
+  <script src="script.js"></script>
 </body>
 
 </html>
