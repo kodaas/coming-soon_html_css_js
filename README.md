@@ -1,4 +1,4 @@
-# Frontend Mentor - [Base Apparel coming soon page solution](https://kodaas.github.io/coming-soon_html_css/)
+# Frontend Mentor - [Base Apparel coming soon page solution](https://kodaas.github.io/coming-soon_html_css_js/)
 
 This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -52,8 +52,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub code](https://github.com/kodaas/coming-soon_html_css)
-- Live Site URL: [Live Site](https://kodaas.github.io/coming-soon_html_css/)
+- Solution URL: [GitHub code](https://github.com/kodaas/coming-soon_html_css_js)
+- Live Site URL: [Live Site](https://kodaas.github.io/coming-soon_html_css_js/)
 
 ## My process
 
